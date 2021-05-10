@@ -1,0 +1,64 @@
+body{
+	color:white;
+	font-family:arial;
+	background-color: #050402;
+}
+
+ul {
+    list-style-type: none;
+    margin: 500;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFBF00;
+    border-radius: 10px;
+}
+
+li a {
+    font-family:arial;
+    font-size:20px;
+    float: center;
+    display: block;
+    color: #960018;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+li a:hover {
+    color:#FFBF00;
+    background-color: #960018;
+}
+
+.tracce{
+    font-family:verdana;
+    font-size:20px;
+    display: block;
+    color:#FFBF00;
+}
+
+.titolo{
+    font-size:25px;
+    color:#960018;
+}
+
+.nome{
+    font-size:20px;
+    color:white;
+}
+
+.test{
+    font-family:verdana;
+    color:#FFFF00;
+}
+
+.argomento{
+    font-family:verdana;
+    display: block;
+    color:#FFBF00;
+}
+
+.codice{
+    font-family:verdana;
+    color:#FFFF00;
+}
