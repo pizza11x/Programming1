@@ -1,25 +1,25 @@
 # Programming1 University Project (ITA)
  
-PROGETTO D’ESAME DI LABORATORIO  
+LABORATORY EXAM PROJECT
  
-1. Gioco delle coppie di carte 
-Sviluppare un algoritmo per la simulazione del gioco delle coppie di carte tra due giocatori identificati dai loro nomi. Inizialmente “mischiare” un mazzo di carte napoletane.
-L’algoritmo per mischiare le carte si basa sull’idea di scambiare effettivamente a coppie le carte del mazzo; una variabile in input permette di indicare quante volte si devono
-effettuare gli scambi. 
-Viene scelto casualmente quale dei due giocatori deve iniziare il gioco. Vengono “scoperte” due carte la quale posizione è indicata dal primo giocatore. Se le due carte hanno lo stesso valore il giocatore si aggiudica un punto e le due carte vengono scoperte.
-Il giocatore continua finchè non sbaglia (non trova due carte uguali) e il turno passa all’altro giocatore. Ad ogni turno il giocatore ha a disposizione l’elenco delle carte coperte e quelle scoperte. Il gioco termina quando si scoprono tutte le carte. Il giocatore che ha totalizzato più punti vince la partita.
-Implementare il programma ed effettuare almeno 3 test. 
-Usare la function rand(), il cui prototipo è in  <stdlib.h>, per generare a ogni passo gli indici delle due carte da scambiare. Nei test, partire sempre dal mazzo
-“ordinato” e poi visualizzare il mazzo “mischiato”. 
-Si ricorda che, se numero_casuale è dichiarata di tipo int, allora la chiamata numero_casuale=rand()%(n+1); genera un numero casuale intero (distribuzione uniforme) nell’insieme (0,1,2,..n).  
+1. Game of pairs of cards
+To develop an algorithm for simulating the game of pairs of cards between two players identified by their names. Initially "shuffling" a deck of Neapolitan cards.
+The algorithm for shuffling the cards is based on the idea of actually swapping the cards in the deck in pairs; an input variable allows you to indicate how many times you have to
+make exchanges.
+It is randomly chosen which of the two players is to start the game. Two cards are "revealed" whose position is indicated by the first player. If the two cards have the same value, the player scores a point and the two cards are revealed.
+The player continues until he makes a mistake (he does not find two identical cards) and the turn passes to the other player. At each turn, the player has the list of face down and face up cards available. The game ends when all the cards are revealed. The player with the most points wins the game.
+Implement the program and perform at least 3 tests.
+Use the function rand (), whose prototype is in <stdlib.h>, to generate the indices of the two cards to be exchanged at each step. In tests, always starting with the deck
+"Sorted" and then view the "shuffled" deck.
+Remember that, if random_number is declared of type int, then the call random_number = rand ()% (n + 1); generates a random integer (uniform distribution) in the set (0,1,2, .. n).
 
 
-2. Conto corrente 
-Si supponga di voler gestire i conti correnti di n utenti. Ogni utente è identificato dal Cognome, Nome, numero del conto, lista movimenti.
- Gestire i conti correnti e gestire le seguenti operazioni 
-• Inserire un nuovo correntista a cui viene assegnato un codice univoco.
-• Visualizzare la lista movimenti di un dato correntista (dato il numero del conto o Cognome/Nome) in una fissata data.
-Implementare l’algoritmo per la simulazione dei conto corrente. Effettuare e
-visualizzare almeno un test per ognuna delle opzioni richieste
+2. Current account
+Suppose you want to manage the current accounts of n users. Each user is identified by the Surname, Name, account number, movement list.
+ Manage current accounts and manage the following operations
+• Enter a new account holder who is assigned a unique code.
+• View the movement list of a given account holder (given the account number or Surname / Name) on a set date.
+Implement the algorithm for simulating current accounts. Carry out and
+display at least one test for each of the required options
 
  
